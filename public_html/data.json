@@ -1,68 +1,80 @@
 {
-   "projects": [
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "Microsoft",
-         "alt": "projects Windows",
-         "link": "www.google.com"      
-      },   
-      {
-         "project": "E-commerce site",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "Oolong Flower Power",
-         "alt": "projects Oolong Flower Power"         
-      },   
-      {
-         "project": "Dance blog",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "Why Not Dance",
-         "alt": "projects Why Not Dance"         
-      },   
-      {
-         "project": "CMS",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "BAP",
-         "alt": "projects BAP"         
-      },   
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "StephCake",
-         "alt": "projects BCL"         
-      },   
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "StephCake",
-         "alt": "projects Charts"         
-      },   
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "StephCake",
-         "alt": "projects Carosel"         
-      },   
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "StephCake",
-         "alt": "projects Search"         
-      },   
-      {
-         "project": "Web DB Application",
-         "jobTitle": "Front-end engineer & Web developer",
-         "Website": "stevo.joc@gmail.com",
-         "companyName": "StephCake",
-         "alt": "projects PHP Blog"         
-      } 
-   ]
+"projects": [
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "Microsoft",
+        "alt": "projects Windows",
+        "desc": "Xbox team. Designed and Built a Web DB Application to store and display Microsoft Art. Stand up agile scrum meetings. Technologies: SQL Server, Visual Studio 2012, C#, JavaScript, HTML5, CSS3, U.I Development.",
+      "link": "https://www.google.ie/"
+},
+{
+"project": "E-commerce site",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "Oolong Flower Power",
+        "desc": "OS e-commerce redesign Tea Shop – SDLC. Bespoke Template, Agile, Paypal.Technologies: PHP, HTML, CSS, JavaScript, SSL certification, Excel, SQL, Photoshop, Zencart.",
+        "alt": "projects Oolong Flower Power",
+        "link": "https://www.oolongflowerpower.ie/"
+},
+{
+"project": "Dance blog",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "Why Not Dance",
+        "desc": "Complete site redesign – SDLC - Bespoke Template. Technologies: PHP, HTML, CSS, JavaScript, MySQL, Photoshop, Wordpress.",
+        "alt": "projects Why Not Dance",
+        "link": "http://whynotdancecompany.ie/"
+},
+{
+"project": "CMS",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "BAP",
+        "desc": "Defining and implementing website features, plug-ins and architecture Creating Interactive timeline, Training, PayPal, FB adverts. Technologies: PHP, HTML, CSS, Photoshop, JavaScript, Drupal.",
+        "alt": "projects BAP",
+        "link": "http://www.bap.ie/"
+},
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "StephCake",
+        "alt": "projects BCL",
+        "link": "https://businesscardlist.azurewebsites.net/"
+},
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "StephCake",
+        "alt": "projects Charts",
+        "link": "http://steboot3d.azurewebsites.net/"
+},
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "StephCake",
+        "alt": "projects Carosel",
+        "link": "https://www.google.ie/"
+},
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "StephCake",
+        "alt": "projects Search",
+        "link": "https://www.google.ie/"
+},
+{
+"project": "Web DB Application",
+        "jobTitle": "Front-end engineer & Web developer",
+        "Website": "stevo.joc@gmail.com",
+        "companyName": "StephCake",
+        "alt": "projects PHP Blog",
+        "link": "http://stejblog.azurewebsites.net/"
 }
+]
+        }

@@ -10,7 +10,6 @@
 
 // immediately invoked anonymous function
 (function () {
-
     // jQuery AJAX call
     $.ajax({
         url: 'data.json',
@@ -21,33 +20,20 @@
             document.querySelector('.grid').addEventListener('click', function (e) {
                 console.log(e.target.id);
                 if (e.target.tagName === 'IMG') {
-                    console.log(e.target.alt);
-
                     for (var i = 0; i < data.projects.length; i++) {
-
+                        var link = data.projects[i].link;
                         if (e.target.alt === data.projects[i].alt) {
-                            swal({title: "Project: " + data.projects[i].companyName, text: "You will not be able to recover this imaginary file!", type: "warning", showCancelButton: true, confirmButtonColor: "#DD6B55", confirmButtonText: "Yes, delete it!", cancelButtonText: "No, cancel plx!", closeOnConfirm: false, closeOnCancel: false}, function (isConfirm) {
+                            swal({title: "Project: " + data.projects[i].companyName, text: "Description: " + data.projects[i].desc + "\nLink: " + link, showCancelButton: true, confirmButtonColor: "#DD6B55", confirmButtonText: "Go to site!", cancelButtonText: "No thanks!", closeOnConfirm: true, closeOnCancel: true},
+                            function (isConfirm) {
                                 if (isConfirm) {
-                                    swal("Deleted!", "Your imaginary file has been deleted.", "success");
-                                } else {
-                                    swal("Cancelled", "Your imaginary file is safe :)", "error");
+                                    for (var j = 0; j < data.projects.length; j++) {
+                                        if (e.target.alt === data.projects[j].alt)
+                                        {
+                                            window.open(data.projects[j].link);
+                                        }
+                                    }
                                 }
                             });
-
-
-                            //                     swal({
-                            //                             "Details", "Company: " +
-                            //                             data.projects[i].companyName +
-                            //                             "\nJob title: " +
-                            //                             data.projects[i].jobTitle +
-                            //                             "\n Link: " +
-                            //                              data.projects[i].link 
-                            //                              //+ 
-                            // //                     "text", "By clicking 'OK' you will be redirected to the link." +
-                            // //                            "type," warning + 
-                            // // "showCancelButton", true
-                            // });
-
                         }
                     }
                 }
@@ -55,7 +41,3 @@
         }
     });
 }()); // end immediately invoked anonymous function
-
-// title: "Are you sure?",
-//        
- 
